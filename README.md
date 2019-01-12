@@ -8,5 +8,9 @@ The site allows its users to see relevant article and video results at once for 
 ### How users can get started with the project
 Users type a topic of interest into the text input and click go to search that topic or they can click the random button to get a random result.
 
-### Who maintains and contributes to the project
-This site will be maintained by Sadiya J, Reeve J, Chris G, & Clay H,
+### NewsAndViews is deployed to GitHub Pages
+[Click To Go To Deployed Site](https://sadiyajiru.github.io/NewsAndViews/)
+
+
+
+<img width="1173" alt="screen shot 2019-01-12 at 4 26 37 pm" src="https://user-images.githubusercontent.com/39322545/51079103-19c13800-1687-11e9-88fb-028e3da640a0.png">
