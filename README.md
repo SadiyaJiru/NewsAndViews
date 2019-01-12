@@ -2,7 +2,7 @@
 ### What the app does
 The site will display up to the top 20 news article results with the correspondingly most relevant youtube video result by title search. News and Views allows its users to see relevant article and video results at once for interesting research or fun browsing.
 
-###Instructions
+### Instructions
 Users type a topic of interest into the text input and click go to search that topic or they can click the random button to get a random result.
 
 ### NewsAndViews is deployed to GitHub Pages
