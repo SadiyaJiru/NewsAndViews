@@ -1,0 +1,144 @@
+html,
+body {
+  background: rgb(0, 103, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 103, 255, 1) 3%,
+    rgba(12, 12, 49, 0.9806062073266807) 26%,
+    rgba(2, 0, 36, 1) 69%
+  );
+  height: 100%;
+  margin: auto;
+}
+.container {
+  margin: 0;
+}
+.header {
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(12, 12, 49, 0.9806062073266807) 9%,
+    rgba(2, 0, 36, 1) 40%
+  );
+}
+h1 {
+  text-align: center;
+  font-size: 4.5em;
+  letter-spacing: 0.25em;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 6px 15px yellow, -5px 5px 15px blue;
+}
+/*================React text=====================*/
+.react {
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 0.25em;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 6px 15px yellow, -5px 5px 15px blue;
+}
+/*================React text end=====================*/
+::placeholder {
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+.form-control {
+  position: relative;
+  margin: auto;
+  font-size: 2em;
+  background: rgb(0, 206, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 206, 255, 1) 3%,
+    rgba(12, 12, 49, 0.9806062073266807) 22%,
+    rgba(0, 0, 0, 1) 66%
+  );
+}
+.smallglobe {
+  position: relative;
+  right: 30px;
+  margin: auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+  pointer-events: none;
+}
+h2 {
+  position: relative;
+  color: red;
+  font-size: 0.75em;
+  text-align: center;
+}
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+#submit-input {
+  color: whitesmoke;
+}
+/*=====================Button stuff============================*/
+.button {
+  border-radius: 15px;
+}
+.random {
+  left: 25px;
+  width: 105px;
+  height: 47px;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  position: relative;
+  display: block;
+  margin: auto;
+  background: rgb(32, 144, 22);
+  background: radial-gradient(
+    circle,
+    rgba(32, 144, 22, 0.9806062073266807) 10%,
+    rgba(0, 206, 255, 1) 35%,
+    rgba(242, 8, 8, 1) 75%
+  );
+}
+.random:hover {
+  background: rgb(6, 18, 20);
+  background: radial-gradient(
+    circle,
+    rgba(6, 18, 20, 1) 11%,
+    rgba(32, 144, 22, 0.9806062073266807) 23%,
+    rgba(242, 8, 8, 1) 71%
+  );
+}
+.search-button {
+  width: 105px;
+  height: 47px;
+  border-radius: 0 20px 20px 0;
+  margin: auto;
+  position: relative;
+  display: block;
+}
+.search-button:active {
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  background-color: green;
+  opacity: 1;
+}
+/*=====================Button stuff end============================*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  color: black;
+  text-align: center;
+}
